@@ -1,0 +1,310 @@
+2024-04-26 14:03:23,985 INFO    StreamThr :7612 [internal.py:wandb_internal():86] W&B internal server running at pid: 7612, started at: 2024-04-26 14:03:23.985352
+2024-04-26 14:03:23,987 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status
+2024-04-26 14:03:23,990 INFO    WriterThread:7612 [datastore.py:open_for_write():85] open: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/run-z3jq5krd.wandb
+2024-04-26 14:03:23,991 DEBUG   SenderThread:7612 [sender.py:send():379] send: header
+2024-04-26 14:03:23,992 DEBUG   SenderThread:7612 [sender.py:send():379] send: run
+2024-04-26 14:03:24,302 INFO    SenderThread:7612 [dir_watcher.py:__init__():211] watching files in: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files
+2024-04-26 14:03:24,302 INFO    SenderThread:7612 [sender.py:_start_run_threads():1121] run started: z3jq5krd with start time 1714140203.984863
+2024-04-26 14:03:24,305 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: check_version
+2024-04-26 14:03:24,305 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: check_version
+2024-04-26 14:03:24,436 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: run_start
+2024-04-26 14:03:24,446 DEBUG   HandlerThread:7612 [system_info.py:__init__():32] System info init
+2024-04-26 14:03:24,446 DEBUG   HandlerThread:7612 [system_info.py:__init__():47] System info init done
+2024-04-26 14:03:24,446 INFO    HandlerThread:7612 [system_monitor.py:start():181] Starting system monitor
+2024-04-26 14:03:24,446 INFO    SystemMonitor:7612 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-04-26 14:03:24,447 INFO    HandlerThread:7612 [system_monitor.py:probe():201] Collecting system info
+2024-04-26 14:03:24,447 INFO    SystemMonitor:7612 [interfaces.py:start():190] Started cpu monitoring
+2024-04-26 14:03:24,448 INFO    SystemMonitor:7612 [interfaces.py:start():190] Started disk monitoring
+2024-04-26 14:03:24,448 INFO    SystemMonitor:7612 [interfaces.py:start():190] Started gpu monitoring
+2024-04-26 14:03:24,449 INFO    SystemMonitor:7612 [interfaces.py:start():190] Started memory monitoring
+2024-04-26 14:03:24,450 INFO    SystemMonitor:7612 [interfaces.py:start():190] Started network monitoring
+2024-04-26 14:03:24,459 DEBUG   HandlerThread:7612 [system_info.py:probe():196] Probing system
+2024-04-26 14:03:24,460 DEBUG   HandlerThread:7612 [gitlib.py:_init_repo():53] git repository is invalid
+2024-04-26 14:03:24,460 DEBUG   HandlerThread:7612 [system_info.py:probe():244] Probing system done
+2024-04-26 14:03:24,460 DEBUG   HandlerThread:7612 [system_monitor.py:probe():210] {'os': 'Linux-6.2.0-37-generic-x86_64-with-glibc2.35', 'python': '3.11.7', 'heartbeatAt': '2024-04-26T14:03:24.459296', 'startedAt': '2024-04-26T14:03:23.981199', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'bnb_4bit_training_with_inference.ipynb', 'codePathLocal': None, 'root': '/home/paperspace/trainingModel', 'host': 'psjwztbvqszj', 'username': 'paperspace', 'executable': '/usr/local/bin/python', 'cpu_count': 12, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2800.283, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}, {'current': 2800.283, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 96.58367538452148, 'used': 68.72623443603516}}, 'gpu': 'NVIDIA A100-SXM4-80GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A100-SXM4-80GB', 'memory_total': 85899345920}], 'memory': {'total': 88.37420272827148}}
+2024-04-26 14:03:24,461 INFO    HandlerThread:7612 [system_monitor.py:probe():211] Finished collecting system info
+2024-04-26 14:03:24,461 INFO    HandlerThread:7612 [system_monitor.py:probe():214] Publishing system info
+2024-04-26 14:03:24,461 DEBUG   HandlerThread:7612 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-04-26 14:03:24,461 DEBUG   HandlerThread:7612 [system_info.py:_save_pip():68] Saving pip packages done
+2024-04-26 14:03:24,461 INFO    HandlerThread:7612 [system_monitor.py:probe():216] Finished publishing system info
+2024-04-26 14:03:24,466 DEBUG   SenderThread:7612 [sender.py:send():379] send: files
+2024-04-26 14:03:24,466 INFO    SenderThread:7612 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2024-04-26 14:03:24,476 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:03:24,476 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:03:24,520 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:03:24,667 DEBUG   SenderThread:7612 [sender.py:send():379] send: telemetry
+2024-04-26 14:03:24,667 DEBUG   SenderThread:7612 [sender.py:send():379] send: config
+2024-04-26 14:03:24,667 DEBUG   SenderThread:7612 [sender.py:send():379] send: metric
+2024-04-26 14:03:24,668 DEBUG   SenderThread:7612 [sender.py:send():379] send: telemetry
+2024-04-26 14:03:24,668 DEBUG   SenderThread:7612 [sender.py:send():379] send: metric
+2024-04-26 14:03:24,668 WARNING SenderThread:7612 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2024-04-26 14:03:24,668 DEBUG   SenderThread:7612 [sender.py:send():379] send: telemetry
+2024-04-26 14:03:24,668 DEBUG   SenderThread:7612 [sender.py:send():379] send: telemetry
+2024-04-26 14:03:24,668 DEBUG   SenderThread:7612 [sender.py:send():379] send: config
+2024-04-26 14:03:24,787 INFO    wandb-upload_0:7612 [upload_job.py:push():131] Uploaded file /tmp/tmpi7bm0pgzwandb/ptmh72ps-wandb-metadata.json
+2024-04-26 14:03:25,045 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: log_artifact
+2024-04-26 14:03:25,046 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: log_artifact
+2024-04-26 14:03:25,303 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_created():271] file/dir created: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/requirements.txt
+2024-04-26 14:03:25,303 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_created():271] file/dir created: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/wandb-metadata.json
+2024-04-26 14:03:26,961 INFO    wandb-upload_1:7612 [upload_job.py:push():89] Uploaded file /home/paperspace/.local/share/wandb/artifacts/staging/tmpoonsk1lk
+2024-04-26 14:03:27,049 INFO    wandb-upload_0:7612 [upload_job.py:push():89] Uploaded file /home/paperspace/.local/share/wandb/artifacts/staging/tmpf7poj2ft
+2024-04-26 14:03:27,049 INFO    wandb-upload_3:7612 [upload_job.py:push():89] Uploaded file /home/paperspace/.local/share/wandb/artifacts/staging/tmpjnphngrj
+2024-04-26 14:03:27,507 INFO    wandb-upload_2:7612 [upload_job.py:push():89] Uploaded file /home/paperspace/.local/share/wandb/artifacts/staging/tmp2oydkffg
+2024-04-26 14:03:27,961 INFO    SenderThread:7612 [sender.py:send_request_log_artifact():1441] logged artifact model-z3jq5krd - {'id': 'QXJ0aWZhY3Q6ODExNzI1NDIz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NzA3NDY3Ng==', 'latestArtifact': None}}
+2024-04-26 14:03:28,303 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_created():271] file/dir created: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:29,916 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:03:30,304 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:32,304 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:34,305 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:35,484 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:03:36,306 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:38,306 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:39,475 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:03:39,476 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:03:39,476 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:03:40,307 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:41,374 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:03:42,308 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:44,309 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:46,309 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:46,892 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:03:48,310 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:50,311 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:52,311 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:52,882 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:03:54,312 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:03:54,475 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:03:54,475 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:03:54,476 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:03:58,579 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:03:59,314 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/config.yaml
+2024-04-26 14:04:03,688 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:08,689 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:09,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:04:09,673 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:04:09,676 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:04:09,836 DEBUG   SenderThread:7612 [sender.py:send():379] send: config
+2024-04-26 14:04:09,836 DEBUG   SenderThread:7612 [sender.py:send():379] send: metric
+2024-04-26 14:04:09,837 DEBUG   SenderThread:7612 [sender.py:send():379] send: metric
+2024-04-26 14:04:09,837 WARNING SenderThread:7612 [sender.py:send_metric():1326] Seen metric with glob (shouldn't happen)
+2024-04-26 14:04:09,837 DEBUG   SenderThread:7612 [sender.py:send():379] send: config
+2024-04-26 14:04:10,317 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:04:10,787 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: log_artifact
+2024-04-26 14:04:10,787 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: log_artifact
+2024-04-26 14:04:11,168 INFO    wandb-upload_2:7612 [upload_job.py:push():86] Skipped uploading /home/paperspace/.local/share/wandb/artifacts/staging/tmphnled2mt
+2024-04-26 14:04:11,168 INFO    wandb-upload_0:7612 [upload_job.py:push():86] Skipped uploading /home/paperspace/.local/share/wandb/artifacts/staging/tmpm97rqgsv
+2024-04-26 14:04:11,168 INFO    wandb-upload_1:7612 [upload_job.py:push():86] Skipped uploading /home/paperspace/.local/share/wandb/artifacts/staging/tmpak28ewal
+2024-04-26 14:04:11,975 INFO    wandb-upload_3:7612 [upload_job.py:push():89] Uploaded file /home/paperspace/.local/share/wandb/artifacts/staging/tmp7bp11z3o
+2024-04-26 14:04:12,452 INFO    SenderThread:7612 [sender.py:send_request_log_artifact():1441] logged artifact model-z3jq5krd - {'id': 'QXJ0aWZhY3Q6ODExNzI2MTI3', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE2NzA3NDY3Ng==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODExNzI1NDIz', 'versionIndex': 0}}}
+2024-04-26 14:04:14,319 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:04:14,453 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:19,454 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:24,450 DEBUG   SystemMonitor:7612 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-04-26 14:04:24,451 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:04:24,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:04:24,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:04:24,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:04:24,819 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:29,824 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:30,324 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/config.yaml
+2024-04-26 14:04:34,915 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:39,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:04:39,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:04:39,673 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:04:40,795 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:45,796 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:50,797 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:04:54,452 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:04:54,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:04:54,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:04:54,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:04:56,743 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:01,744 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:06,745 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:09,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:05:09,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:05:09,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:05:11,775 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:16,776 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:21,777 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:24,453 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:05:24,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:05:24,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:05:24,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:05:26,819 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:31,820 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:36,821 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:39,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:05:39,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:05:39,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:05:42,793 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:47,794 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:53,121 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:05:54,350 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:05:54,453 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:05:54,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:05:54,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:05:54,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:05:58,819 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:03,820 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:08,821 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:09,673 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:06:09,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:06:09,674 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:06:14,356 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:06:14,619 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:19,620 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:24,454 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:06:24,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:06:24,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:06:24,675 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:06:24,820 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:29,821 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:34,822 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:39,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:06:39,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:06:39,675 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:06:40,788 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:45,789 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:50,790 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:06:54,454 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:06:54,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:06:54,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:06:54,675 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:06:56,744 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:01,745 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:06,746 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:09,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:07:09,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:07:09,675 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:07:11,820 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:16,821 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:21,822 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:24,455 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:07:24,674 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:07:24,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:07:24,675 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:07:27,784 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:32,785 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:37,786 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:39,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:07:39,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:07:39,675 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:07:42,805 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:47,806 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:52,807 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:07:54,456 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:07:54,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:07:54,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:07:54,676 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:07:58,728 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:03,729 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:08,392 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:08:08,763 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:09,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: internal_messages
+2024-04-26 14:08:09,675 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: stop_status
+2024-04-26 14:08:09,676 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: stop_status
+2024-04-26 14:08:10,392 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:08:12,393 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:08:13,800 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:18,801 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:23,802 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:24,130 DEBUG   SenderThread:7612 [sender.py:send():379] send: exit
+2024-04-26 14:08:24,130 INFO    SenderThread:7612 [sender.py:send_exit():584] handling exit code: 0
+2024-04-26 14:08:24,130 INFO    SenderThread:7612 [sender.py:send_exit():586] handling runtime: 299
+2024-04-26 14:08:24,131 INFO    SenderThread:7612 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2024-04-26 14:08:24,131 INFO    SenderThread:7612 [sender.py:send_exit():592] send defer
+2024-04-26 14:08:24,131 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,131 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 0
+2024-04-26 14:08:24,131 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,131 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 0
+2024-04-26 14:08:24,131 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 1
+2024-04-26 14:08:24,131 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,132 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 1
+2024-04-26 14:08:24,132 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,132 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 1
+2024-04-26 14:08:24,132 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 2
+2024-04-26 14:08:24,132 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,132 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 2
+2024-04-26 14:08:24,132 INFO    HandlerThread:7612 [system_monitor.py:finish():190] Stopping system monitor
+2024-04-26 14:08:24,132 DEBUG   SystemMonitor:7612 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-04-26 14:08:24,133 INFO    HandlerThread:7612 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-26 14:08:24,133 DEBUG   SystemMonitor:7612 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-04-26 14:08:24,133 INFO    HandlerThread:7612 [interfaces.py:finish():202] Joined disk monitor
+2024-04-26 14:08:24,176 INFO    HandlerThread:7612 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-26 14:08:24,177 INFO    HandlerThread:7612 [interfaces.py:finish():202] Joined memory monitor
+2024-04-26 14:08:24,177 INFO    HandlerThread:7612 [interfaces.py:finish():202] Joined network monitor
+2024-04-26 14:08:24,177 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,177 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 2
+2024-04-26 14:08:24,177 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 3
+2024-04-26 14:08:24,177 DEBUG   SenderThread:7612 [sender.py:send():379] send: stats
+2024-04-26 14:08:24,178 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,178 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 3
+2024-04-26 14:08:24,178 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,178 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 3
+2024-04-26 14:08:24,178 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 4
+2024-04-26 14:08:24,178 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,178 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 4
+2024-04-26 14:08:24,178 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,178 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 4
+2024-04-26 14:08:24,178 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 5
+2024-04-26 14:08:24,179 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,179 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 5
+2024-04-26 14:08:24,179 DEBUG   SenderThread:7612 [sender.py:send():379] send: summary
+2024-04-26 14:08:24,179 INFO    SenderThread:7612 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2024-04-26 14:08:24,179 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,179 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 5
+2024-04-26 14:08:24,179 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 6
+2024-04-26 14:08:24,179 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,179 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 6
+2024-04-26 14:08:24,180 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,180 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 6
+2024-04-26 14:08:24,180 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 7
+2024-04-26 14:08:24,180 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: status_report
+2024-04-26 14:08:24,180 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:24,180 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 7
+2024-04-26 14:08:24,180 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:24,180 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 7
+2024-04-26 14:08:24,397 INFO    Thread-12 :7612 [dir_watcher.py:_on_file_created():271] file/dir created: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/wandb-summary.json
+2024-04-26 14:08:25,130 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: poll_exit
+2024-04-26 14:08:27,948 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 8
+2024-04-26 14:08:27,948 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: poll_exit
+2024-04-26 14:08:27,949 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:27,949 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 8
+2024-04-26 14:08:27,949 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:27,949 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 8
+2024-04-26 14:08:27,949 INFO    SenderThread:7612 [job_builder.py:build():281] Attempting to build job artifact
+2024-04-26 14:08:27,950 INFO    SenderThread:7612 [job_builder.py:_get_source_type():404] no source found
+2024-04-26 14:08:27,950 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 9
+2024-04-26 14:08:27,951 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:27,951 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 9
+2024-04-26 14:08:27,951 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:27,951 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 9
+2024-04-26 14:08:27,951 INFO    SenderThread:7612 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-26 14:08:28,398 INFO    SenderThread:7612 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:08:28,398 INFO    SenderThread:7612 [dir_watcher.py:finish():388] scan: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files
+2024-04-26 14:08:28,398 INFO    SenderThread:7612 [dir_watcher.py:finish():402] scan save: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/config.yaml config.yaml
+2024-04-26 14:08:28,399 INFO    SenderThread:7612 [dir_watcher.py:finish():402] scan save: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/wandb-summary.json wandb-summary.json
+2024-04-26 14:08:28,399 INFO    SenderThread:7612 [dir_watcher.py:finish():402] scan save: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/wandb-metadata.json wandb-metadata.json
+2024-04-26 14:08:28,399 INFO    SenderThread:7612 [dir_watcher.py:finish():402] scan save: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/requirements.txt requirements.txt
+2024-04-26 14:08:28,399 INFO    SenderThread:7612 [dir_watcher.py:finish():402] scan save: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log output.log
+2024-04-26 14:08:28,399 INFO    SenderThread:7612 [sender.py:transition_state():612] send defer: 10
+2024-04-26 14:08:28,399 DEBUG   HandlerThread:7612 [handler.py:handle_request():144] handle_request: defer
+2024-04-26 14:08:28,400 INFO    HandlerThread:7612 [handler.py:handle_request_defer():170] handle defer: 10
+2024-04-26 14:08:28,407 DEBUG   SenderThread:7612 [sender.py:send_request():406] send_request: defer
+2024-04-26 14:08:28,407 INFO    SenderThread:7612 [sender.py:send_request_defer():608] handle sender defer: 10
+2024-04-26 14:08:28,407 INFO    SenderThread:7612 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-26 14:08:29,032 WARNING StreamThr :7612 [internal.py:is_dead():414] Internal process exiting, parent pid 7306 disappeared
+2024-04-26 14:08:29,032 ERROR   StreamThr :7612 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-04-26 14:08:29,400 INFO    HandlerThread:7612 [handler.py:finish():840] shutting down handler
+2024-04-26 14:08:29,402 INFO    WriterThread:7612 [datastore.py:close():294] close: /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/run-z3jq5krd.wandb
+2024-04-26 14:08:29,408 INFO    SenderThread:7612 [sender.py:finish():1531] shutting down sender
+2024-04-26 14:08:29,408 INFO    SenderThread:7612 [file_pusher.py:finish():175] shutting down file pusher
+2024-04-26 14:08:29,408 INFO    SenderThread:7612 [file_pusher.py:join():181] waiting for file pusher
+2024-04-26 14:08:30,083 INFO    wandb-upload_1:7612 [upload_job.py:push():131] Uploaded file /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/requirements.txt
+2024-04-26 14:08:30,184 INFO    wandb-upload_0:7612 [upload_job.py:push():131] Uploaded file /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/wandb-summary.json
+2024-04-26 14:08:30,322 INFO    wandb-upload_3:7612 [upload_job.py:push():131] Uploaded file /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/output.log
+2024-04-26 14:08:30,355 INFO    wandb-upload_2:7612 [upload_job.py:push():131] Uploaded file /home/paperspace/trainingModel/wandb/run-20240426_140323-z3jq5krd/files/config.yaml
+2024-04-26 14:08:30,556 INFO    Thread-11 (_thread_body):7612 [sender.py:transition_state():612] send defer: 11
+2024-04-26 14:08:30,908 INFO    SenderThread:7612 [file_stream.py:finish():594] file stream finish called
+2024-04-26 14:08:31,153 INFO    SenderThread:7612 [file_stream.py:finish():598] file stream finish is done

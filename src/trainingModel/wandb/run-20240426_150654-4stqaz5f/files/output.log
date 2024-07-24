@@ -1,0 +1,56 @@
+
+wandb: Network error (ReadTimeout), entering retry loop.
+bnb_4bit_training_with_inference.ipynb	modelDataset  outputs  wandb
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+/home/paperspace/.local/lib/python3.11/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+Is bitcoin a good cryptocurrency?
+Bitcoin is a good cryptocurrency.
+Bitcoin is a good cryptocurrency.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+What do you think of Bitcoin?
+I think it’s a great idea. I think it’s a great idea
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+What is the best Cryptocurrency?
+The best cryptocurrency is the one that is most useful to you.
+What is the
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+What is the best Cryptocurrency by name?
+What is the best Cryptocurrency by name?
+What is the best Cryptocur
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+What do you think of Ethereum?
+I think it’s a great project. I think it’s a great project.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+How do you feel about Ethereum in terms of making money?
+I think it’s a great idea. I think it’s a great idea.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+What factors do you consider important when evaluating the potential of a cryptocurrency for investment?
+We are always looking for the best projects. We are always looking for the best projects.
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Can you explain the key differences between Bitcoin and Ethereum?
+Ethereum is a platform for decentralized applications. It is a platform for smart contracts. It
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Can you explain the key differences between Bitcoin and Ethereum?
+Ethereum is a platform for decentralized applications. It is a platform for smart contracts. It is a platform for decentralized applications. It is a platform for smart contracts. It is a platform for decentralized applications. It is a platform for smart contracts. It is a platform for decentralized applications. It is a platform for smart contracts. It is a platform for decentralized applications. It is a platform for smart contracts. It is a platform for decentralized applications. It is a platform for smart contracts. It
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Can you explain the key parts of Bitcoin
+to me?
+~~~
+jgalt212
+I can try.
+1\. Bitcoin is a digital currency.
+2\. Bitcoin is a digital currency that is not controlled
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Can you explain Bitcoin
+to your grandma?
+~~~
+jason_slack
+I can't. I can explain it to my grandma, but she won't understand it.
+------
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+Can you explain Bitcoin?
+Bitcoin is a digital currency. It’s a virtual currency. It’s a digital currency. It’s a virtual currency. It’s a digital currency. It’s
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+What are some limitations or gaps in your knowledge about cryptocurrencies and blockchain technology?
+I think the biggest limitation is that we don’t have a lot of people who are experts in the space. We have a lot of people who are interested in it, but we don

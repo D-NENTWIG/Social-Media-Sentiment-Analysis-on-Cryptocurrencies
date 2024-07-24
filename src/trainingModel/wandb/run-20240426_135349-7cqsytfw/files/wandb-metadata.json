@@ -1,0 +1,102 @@
+{
+    "os": "Linux-6.2.0-37-generic-x86_64-with-glibc2.35",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-04-26T13:53:50.237296",
+    "startedAt": "2024-04-26T13:53:49.849051",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "bnb_4bit_training_with_inference.ipynb",
+    "codePathLocal": null,
+    "root": "/home/paperspace/trainingModel",
+    "host": "psjwztbvqszj",
+    "username": "paperspace",
+    "executable": "/usr/local/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2800.283,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2800.283,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 96.58367538452148,
+            "used": 68.57064437866211
+        }
+    },
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        }
+    ],
+    "memory": {
+        "total": 88.37420272827148
+    }
+}

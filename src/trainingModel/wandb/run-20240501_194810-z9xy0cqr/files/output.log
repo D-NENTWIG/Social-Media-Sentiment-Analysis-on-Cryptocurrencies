@@ -1,0 +1,59 @@
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+/home/paperspace/.local/lib/python3.11/site-packages/torch/utils/checkpoint.py:61: UserWarning: None of the inputs have requires_grad=True. Gradients will be None
+  warnings.warn(
+what is ethereum?
+Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.
+Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or third-party interference.
+Ethereum is a decentralized platform that runs smart contracts: applications that run exactly as programmed without any possibility of downtime, censorship, fraud or
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+what do you know about trading? Make it long and short, and make it
+quick.
+~~~
+joshu
+I don't know anything about trading.
+------
+joshu
+I'm not sure what you mean by "long and short".
+~~~
+joshu
+I'm not sure what you mean by "long and short".
+~~~
+joshu
+I'm not sure what you mean by "long and short".
+~~~
+joshu
+I'm not sure
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+what do you know about trading?
+~~~
+joshu
+I don't know anything about trading.
+------
+joshu
+I'm not sure what you mean by "trading".
+~~~
+joshu
+I'm not sure what you mean by "trading".
+~~~
+joshu
+I'm not sure what you mean by "trading".
+~~~
+joshu
+I'm not sure what you mean by "trading".
+~~~
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+what do you know about crypto?
+~~~
+jstanley
+I don't know anything about crypto, but I know that I don't want to be
+responsible for the security of the data that I store on a server.
+~~~
+jstanley
+I'm not sure why I'm being downvoted.
+I don't know anything about crypto, but I know that I don't want to be
+responsible for the security of the data that I store on a server.
+~~~
+Setting `pad_token_id` to `eos_token_id`:0 for open-end generation.
+what is Bitcoin?
+Bitcoin is a digital currency that is created and held electronically. It is a decentralized currency that is not controlled by any government or central bank. It is a digital currency that is created and held electronically. It is a decentralized currency that is not controlled by any government or central bank.
+What is a Bitcoin wallet?
